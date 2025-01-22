@@ -5,3 +5,19 @@
 	Overwriting Default Theme Styles for Better Handling Updates
 -----------------------------------------------------------------*/
 
+.color5 {
+	background-color: #FFDAB9 !important; 
+	color: #4F4F4F !important; 	
+}
+
+.fbox-content {
+	text-align: justify;
+}
+
+.fbox-icon i {
+	background-color: #FFDAB9;
+}
+
+.fbox-icon i:hover {
+    background-color: #FFDAB9; /* Change to a new color on hover */
+}

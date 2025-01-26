@@ -21,3 +21,150 @@
 .fbox-icon i:hover {
     background-color: #FFDAB9; /* Change to a new color on hover */
 }
+
+.fbox-icon a:hover, .fbox-icon i:hover, .fbox-icon img:hover {
+    color: #FFFFFF; /* Hover text/icon color */
+}
+
+.fbox-icon a, .fbox-icon i, .fbox-icon img {
+	color: #000;
+}
+
+/* Our Programs CSS */
+
+/* General Styling */
+.curriculum-overview {
+    padding: 40px 0;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.curriculum-overview h1,
+.curriculum-overview p {
+    margin-bottom: 20px;
+    color: #4A4A4A;
+}
+
+.curriculum-overview .row {
+    justify-content: center; /* Center align the rows */
+    gap: 20px; /* Space between cards */
+}
+
+.curriculum-overview .class-card {
+    background: #A9DFBF; /* Card background color */
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    width: 300px; /* Box size reduced */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.curriculum-overview .class-card h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.curriculum-overview .class-card p {
+    font-size: 14px;
+    margin-bottom: 15px;
+    line-height: 1.5;
+    color: #ffffff;
+	font-weight: bold;
+}
+
+.curriculum-overview .class-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+
+/* services overview */
+
+.development-overview {
+	padding: 60px 20px;
+	background-color: #fff;
+}
+
+.section-title {
+	font-size: 2rem;
+	margin-bottom: 40px;
+}
+
+.development-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    height: 100%; /* Ensures cards fill equal height */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.development-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.icon-container {
+	width: 80px;
+	height: 80px;
+	margin: 0 auto 20px;
+	border: 2px solid #f47c3c;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.icon-container img {
+	width: 50%;
+	height: auto;
+}
+
+.development-title {
+	font-size: 1.2rem;
+	color: #4a4a4a;
+	margin-bottom: 10px;
+}
+
+.development-description {
+	font-size: 0.9rem;
+	color: #7a7a7a;
+}
+
+.development-card h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.development-card p {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+/* learning center - our programs */
+
+.learning-centers {
+	background-color: #f9f9f9;
+}
+
+.icon-container {
+    font-size: 2.5rem;
+    color: green;
+    margin-bottom: 10px;
+}
+
+.image-container img {
+    width: 100%;
+    height: 200px; /* Standardize image height */
+    object-fit: cover; /* Ensures the image covers the area while maintaining its aspect ratio */
+    border-radius: 10px; /* Optional: Adds rounded corners */
+}
